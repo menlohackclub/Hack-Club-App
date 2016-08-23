@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B61FEBD1D6CDAD800F69CA6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B61FEBC1D6CDAD800F69CA6 /* AppDelegate.swift */; };
+		3B61FEBF1D6CDAD800F69CA6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B61FEBE1D6CDAD800F69CA6 /* ViewController.swift */; };
+		3B61FEC21D6CDAD800F69CA6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B61FEC01D6CDAD800F69CA6 /* Main.storyboard */; };
+		3B61FEC41D6CDAD800F69CA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B61FEC31D6CDAD800F69CA6 /* Assets.xcassets */; };
+		3B61FEC71D6CDAD800F69CA6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B61FEC51D6CDAD800F69CA6 /* LaunchScreen.storyboard */; };
+		3B61FED21D6CDAD800F69CA6 /* Hack_Club_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B61FED11D6CDAD800F69CA6 /* Hack_Club_AppTests.swift */; };
+		3B61FEDD1D6CDAD800F69CA6 /* Hack_Club_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B61FEDC1D6CDAD800F69CA6 /* Hack_Club_AppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3B61FECE1D6CDAD800F69CA6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B61FEB11D6CDAD800F69CA6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B61FEB81D6CDAD800F69CA6;
+			remoteInfo = "Hack Club App";
+		};
+		3B61FED91D6CDAD800F69CA6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B61FEB11D6CDAD800F69CA6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B61FEB81D6CDAD800F69CA6;
+			remoteInfo = "Hack Club App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3B61FEB91D6CDAD800F69CA6 /* Hack Club App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hack Club App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B61FEBC1D6CDAD800F69CA6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3B61FEBE1D6CDAD800F69CA6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3B61FEC11D6CDAD800F69CA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3B61FEC31D6CDAD800F69CA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3B61FEC61D6CDAD800F69CA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3B61FEC81D6CDAD800F69CA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B61FECD1D6CDAD800F69CA6 /* Hack Club AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hack Club AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B61FED11D6CDAD800F69CA6 /* Hack_Club_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hack_Club_AppTests.swift; sourceTree = "<group>"; };
+		3B61FED31D6CDAD800F69CA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B61FED81D6CDAD800F69CA6 /* Hack Club AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hack Club AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B61FEDC1D6CDAD800F69CA6 /* Hack_Club_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hack_Club_AppUITests.swift; sourceTree = "<group>"; };
+		3B61FEDE1D6CDAD800F69CA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B61FEB61D6CDAD800F69CA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B61FECA1D6CDAD800F69CA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B61FED51D6CDAD800F69CA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B61FEB01D6CDAD800F69CA6 = {
+			isa = PBXGroup;
+			children = (
+				3B61FEBB1D6CDAD800F69CA6 /* Hack Club App */,
+				3B61FED01D6CDAD800F69CA6 /* Hack Club AppTests */,
+				3B61FEDB1D6CDAD800F69CA6 /* Hack Club AppUITests */,
+				3B61FEBA1D6CDAD800F69CA6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3B61FEBA1D6CDAD800F69CA6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B61FEB91D6CDAD800F69CA6 /* Hack Club App.app */,
+				3B61FECD1D6CDAD800F69CA6 /* Hack Club AppTests.xctest */,
+				3B61FED81D6CDAD800F69CA6 /* Hack Club AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B61FEBB1D6CDAD800F69CA6 /* Hack Club App */ = {
+			isa = PBXGroup;
+			children = (
+				3B61FEBC1D6CDAD800F69CA6 /* AppDelegate.swift */,
+				3B61FEBE1D6CDAD800F69CA6 /* ViewController.swift */,
+				3B61FEC01D6CDAD800F69CA6 /* Main.storyboard */,
+				3B61FEC31D6CDAD800F69CA6 /* Assets.xcassets */,
+				3B61FEC51D6CDAD800F69CA6 /* LaunchScreen.storyboard */,
+				3B61FEC81D6CDAD800F69CA6 /* Info.plist */,
+			);
+			path = "Hack Club App";
+			sourceTree = "<group>";
+		};
+		3B61FED01D6CDAD800F69CA6 /* Hack Club AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				3B61FED11D6CDAD800F69CA6 /* Hack_Club_AppTests.swift */,
+				3B61FED31D6CDAD800F69CA6 /* Info.plist */,
+			);
+			path = "Hack Club AppTests";
+			sourceTree = "<group>";
+		};
+		3B61FEDB1D6CDAD800F69CA6 /* Hack Club AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3B61FEDC1D6CDAD800F69CA6 /* Hack_Club_AppUITests.swift */,
+				3B61FEDE1D6CDAD800F69CA6 /* Info.plist */,
+			);
+			path = "Hack Club AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B61FEB81D6CDAD800F69CA6 /* Hack Club App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B61FEE11D6CDAD800F69CA6 /* Build configuration list for PBXNativeTarget "Hack Club App" */;
+			buildPhases = (
+				3B61FEB51D6CDAD800F69CA6 /* Sources */,
+				3B61FEB61D6CDAD800F69CA6 /* Frameworks */,
+				3B61FEB71D6CDAD800F69CA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hack Club App";
+			productName = "Hack Club App";
+			productReference = 3B61FEB91D6CDAD800F69CA6 /* Hack Club App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3B61FECC1D6CDAD800F69CA6 /* Hack Club AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B61FEE41D6CDAD800F69CA6 /* Build configuration list for PBXNativeTarget "Hack Club AppTests" */;
+			buildPhases = (
+				3B61FEC91D6CDAD800F69CA6 /* Sources */,
+				3B61FECA1D6CDAD800F69CA6 /* Frameworks */,
+				3B61FECB1D6CDAD800F69CA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B61FECF1D6CDAD800F69CA6 /* PBXTargetDependency */,
+			);
+			name = "Hack Club AppTests";
+			productName = "Hack Club AppTests";
+			productReference = 3B61FECD1D6CDAD800F69CA6 /* Hack Club AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3B61FED71D6CDAD800F69CA6 /* Hack Club AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B61FEE71D6CDAD800F69CA6 /* Build configuration list for PBXNativeTarget "Hack Club AppUITests" */;
+			buildPhases = (
+				3B61FED41D6CDAD800F69CA6 /* Sources */,
+				3B61FED51D6CDAD800F69CA6 /* Frameworks */,
+				3B61FED61D6CDAD800F69CA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B61FEDA1D6CDAD800F69CA6 /* PBXTargetDependency */,
+			);
+			name = "Hack Club AppUITests";
+			productName = "Hack Club AppUITests";
+			productReference = 3B61FED81D6CDAD800F69CA6 /* Hack Club AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B61FEB11D6CDAD800F69CA6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Tommy Yang";
+				TargetAttributes = {
+					3B61FEB81D6CDAD800F69CA6 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					3B61FECC1D6CDAD800F69CA6 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 3B61FEB81D6CDAD800F69CA6;
+					};
+					3B61FED71D6CDAD800F69CA6 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 3B61FEB81D6CDAD800F69CA6;
+					};
+				};
+			};
+			buildConfigurationList = 3B61FEB41D6CDAD800F69CA6 /* Build configuration list for PBXProject "Hack Club App" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3B61FEB01D6CDAD800F69CA6;
+			productRefGroup = 3B61FEBA1D6CDAD800F69CA6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B61FEB81D6CDAD800F69CA6 /* Hack Club App */,
+				3B61FECC1D6CDAD800F69CA6 /* Hack Club AppTests */,
+				3B61FED71D6CDAD800F69CA6 /* Hack Club AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B61FEB71D6CDAD800F69CA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B61FEC71D6CDAD800F69CA6 /* LaunchScreen.storyboard in Resources */,
+				3B61FEC41D6CDAD800F69CA6 /* Assets.xcassets in Resources */,
+				3B61FEC21D6CDAD800F69CA6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B61FECB1D6CDAD800F69CA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B61FED61D6CDAD800F69CA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B61FEB51D6CDAD800F69CA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B61FEBF1D6CDAD800F69CA6 /* ViewController.swift in Sources */,
+				3B61FEBD1D6CDAD800F69CA6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B61FEC91D6CDAD800F69CA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B61FED21D6CDAD800F69CA6 /* Hack_Club_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B61FED41D6CDAD800F69CA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B61FEDD1D6CDAD800F69CA6 /* Hack_Club_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3B61FECF1D6CDAD800F69CA6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B61FEB81D6CDAD800F69CA6 /* Hack Club App */;
+			targetProxy = 3B61FECE1D6CDAD800F69CA6 /* PBXContainerItemProxy */;
+		};
+		3B61FEDA1D6CDAD800F69CA6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B61FEB81D6CDAD800F69CA6 /* Hack Club App */;
+			targetProxy = 3B61FED91D6CDAD800F69CA6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3B61FEC01D6CDAD800F69CA6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B61FEC11D6CDAD800F69CA6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3B61FEC51D6CDAD800F69CA6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B61FEC61D6CDAD800F69CA6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3B61FEDF1D6CDAD800F69CA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3B61FEE01D6CDAD800F69CA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3B61FEE21D6CDAD800F69CA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Hack Club App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tommyyang.Hack-Club-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3B61FEE31D6CDAD800F69CA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Hack Club App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tommyyang.Hack-Club-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3B61FEE51D6CDAD800F69CA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Hack Club AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tommyyang.Hack-Club-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hack Club App.app/Hack Club App";
+			};
+			name = Debug;
+		};
+		3B61FEE61D6CDAD800F69CA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Hack Club AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tommyyang.Hack-Club-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hack Club App.app/Hack Club App";
+			};
+			name = Release;
+		};
+		3B61FEE81D6CDAD800F69CA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Hack Club AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tommyyang.Hack-Club-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Hack Club App";
+			};
+			name = Debug;
+		};
+		3B61FEE91D6CDAD800F69CA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Hack Club AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tommyyang.Hack-Club-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Hack Club App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B61FEB41D6CDAD800F69CA6 /* Build configuration list for PBXProject "Hack Club App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B61FEDF1D6CDAD800F69CA6 /* Debug */,
+				3B61FEE01D6CDAD800F69CA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B61FEE11D6CDAD800F69CA6 /* Build configuration list for PBXNativeTarget "Hack Club App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B61FEE21D6CDAD800F69CA6 /* Debug */,
+				3B61FEE31D6CDAD800F69CA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3B61FEE41D6CDAD800F69CA6 /* Build configuration list for PBXNativeTarget "Hack Club AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B61FEE51D6CDAD800F69CA6 /* Debug */,
+				3B61FEE61D6CDAD800F69CA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3B61FEE71D6CDAD800F69CA6 /* Build configuration list for PBXNativeTarget "Hack Club AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B61FEE81D6CDAD800F69CA6 /* Debug */,
+				3B61FEE91D6CDAD800F69CA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3B61FEB11D6CDAD800F69CA6 /* Project object */;
+}
