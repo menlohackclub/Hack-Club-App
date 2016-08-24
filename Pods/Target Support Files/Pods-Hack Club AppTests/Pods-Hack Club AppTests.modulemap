@@ -1,0 +1,6 @@
+framework module Pods_Hack_Club_AppTests {
+  umbrella header "Pods-Hack Club AppTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
